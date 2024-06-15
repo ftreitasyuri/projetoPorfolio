@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Página Principal - Consultoria</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+.navegacao{
+    background-color: rgba(37, 4, 86, 0.9);
+  }
+  nav a {
+    color: #fff;
+    /* text-decoration: none; */
+    font-size: 1.2rem;
+    margin-left: 10px;
+    
+  }
+
+  nav a:hover{
+    text-decoration: none;
+    /* font-size: 1.3rem; */
+  }
+
+
+
+      /* Estilização responsiva */
+    @media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .image-grid {
+        flex-direction: column;
+    }
+  
+}
+      
+    </style>
+
+</head>
+<body>
+  <header class="sticky-top">
+    <nav class="sticky-top navbar navbar-dark p-4 navegacao">
+        <span class="text-muted">
+            <a href="index.html">Principal</a>
+            <a href="sobre.html">Sobre Nós</a>
+            <a href="contato.html">Contato</a>
+        </span>
+    </nav>        
+  
+  </header>
+  <section class="container">
+    <hr>
+
+    <div class="card text-center">
+        <div class="card-header">
+          
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">SmartTech Express Consultoria</h5>
+          <p class="card-text">Com os nossos serviços sua empresa pode ir mais longe, imagine economizar tempo e ganhar mais produtividade, <br>
+                            é disso que estamos falando, então corra, clique no botão abaixo para soliciar uma apresentação!
+
+
+          </p>
+          <a href="contato.html" class="btn btn-primary">Solicitar Apresentação</a>
+        </div>
+        <div class="card-footer text-muted">
+          
+        </div>
+      </div>
+
+    <hr>
+
+    <main>        
+        <div class="card-deck">
+        <div class="card">
+            <img class="card-img-top" src="../img/fundo.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Business Inteligence</h5>
+                <p class="card-text">Soluções de analise de dados com business inteligente para sua empresa <a href="analise.html">clique aqui!</a></p>
+                <p class="card-text"><small class="text-muted">Por: SmarttechExpressConsultoria</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../img/automacao.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              
+              <h5 class="card-title">Automação de Processos</h5>
+              <p class="card-text">Soluções de automação de processos como (Envio de e-mails, Macros VBA), para sua empresa <a href="automacao.html">clique aqui!</a></p>
+              <p class="card-text"><small class="text-muted">Por: SmarttechExpressConsultoria</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="../img/desenvol.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+                <h5 class="card-title">Desenvolvimento de Sites/Apps</h5>
+                    <p class="card-text">Soluções de desenvolvimento web para sua empresa <a href="desenvolvimento.html">clique aqui!</a></p>
+                    <p class="card-text"><small class="text-muted">Por: SmarttechExpressConsultoria</small></p>
+            </div>
+          </div>
+      </div>
+    </main>
+</section>
+<footer>
+  <nav class="navbar navbar-dark bg-dark p-4">
+   <span class="text-muted">
+     <p>&copy; 2024 Consultoria XYZ. Todos os direitos reservados.</p>    
+   </span>
+</nav>        
+</footer>
+
+    <script src="js/script.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>
