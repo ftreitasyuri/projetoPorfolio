@@ -16,7 +16,6 @@ body {
 }
 
 
-
 footer {
     background: #333;
     color: #fff;
@@ -41,11 +40,31 @@ footer {
     /* font-size: 1.3rem; */
   }
 
+/* SESSÃO ANALISE.HTML */
+ #sessaoDash{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: auto;
+    gap: .5em;
+
+    text-align: center;
+    
+}
+
+/* FIM DA SESSÃO ANALISE.HTML */
 
       /* Estilização responsiva */
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
+
+    body{
+        background-color: red;
+    }
+
     .container {
         width: 90%;
+    }
+    #sessaoDash{
+        display: none;
     }
 
     nav ul {
